@@ -13,23 +13,33 @@
 //         [break]
 // }
 
-let a = 2+2;
-switch (a){
-    case 4:
-        alert('you are right')
-        break;
+// let a = 2+2;
+// switch (a){
+//     case 4:
+//         alert('you are right')
+//         break;
 
-case 3:
-    alert('you are short')
-    break;
+// case 3:
+//     alert('you are short')
+//     break;
 
-    default:
-        alert(unmatched)
-        break;
-}
+//     default:
+//         alert(unmatched)
+//         break;
+// }
 
 // break can be used to break out of each loop after execution
 
 // making shapes with loop
 
 // 1. creating a square shape
+ let n = 5;
+ let string = "";
+
+ for(let i=0; i<n; i++){
+    for(let j=0; j<n; j++){
+        string +="*";
+    }
+    string +="\n"
+ }
+ alert(string)
